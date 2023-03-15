@@ -1,2 +1,2 @@
-# cover-letter-builder
+# Cover Letter Builder
 An AI powered Cover Letter generating application
