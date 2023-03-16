@@ -1,0 +1,35 @@
+{
+  "name": "cover-letter-builder",
+  "version": "1.0.0",
+  "description": "An AI powered cover letter building web application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "nodemon": "nodemon app.js -e ejs,js,css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samacluka/cover-letter-builder.git"
+  },
+  "keywords": [
+    "Resume",
+    "Cover",
+    "Letter",
+    "AI",
+    "Web",
+    "Application"
+  ],
+  "author": "Luka Samac, Justin Ballaro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samacluka/cover-letter-builder/issues"
+  },
+  "homepage": "https://github.com/samacluka/cover-letter-builder#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1"
+  }
+}
