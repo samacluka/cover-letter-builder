@@ -6,7 +6,8 @@ const express         = require("express"),
 
 app.use(express.static(__dirname + '/public'));     
 
-app.use(bodyParser.urlencoded({extended : true}));
+app.use(bodyParser.urlencoded({extended : true})); // application/x-www-form-urlencoded
+app.use(bodyParser.json()); // application/json
 
 /* Create route variables*/
 const apiRoutes         = require("./routes/api");
